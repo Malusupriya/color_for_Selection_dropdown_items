@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	@Created By: Chintan Ambaliya <chintan.ambaliya@bistasoutions.com>
+-->
+<odoo>
+	<template id="assets_backend" name="Backend Assets (custom_selection_field)" inherit_id="web.assets_backend">
+		<xpath expr="." position="inside">
+			<!-- CSS -->
+			<link href="/custom_selection_field/static/src/js_lib/bootstrap-select.css" rel="stylesheet" type="text/css"/>
+
+			<!-- LESS -->
+			<link href="/custom_selection_field/static/src/less/custom.less" rel="stylesheet" type="text/less"/>
+
+			<!-- JS -->
+			<script type="text/javascript" src="/custom_selection_field/static/src/js_lib/bootstrap-select.js"/>
+			<script type="text/javascript" src="/custom_selection_field/static/src/js/form_widgets.js"/>
+		</xpath>
+	</template>
+</odoo>
